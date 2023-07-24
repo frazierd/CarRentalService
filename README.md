@@ -247,14 +247,20 @@ GSI//
  String VIN  string;
 
 ```
+This project has two code bases:
+
+One code base is for our Lambda service code (MuddathersRentalCarServiceLambda). This contains code that designs and runs our service APIs, as well as packages to interact with and test your service.
+
+The second contains code for the website. I had limited front end exposure at the beginning of this project, and in two weeks managed to get comfortable with:
+
+HTML
+CSS
+JavaScript
+For simplicity I kept them in the same repository for this project.
+
+# Deploying
+We used GitHub Actions to deploy the code to AWS.
 
 
-
-# 8. Pages
-![The home page will automatically show a list of inventory, and give the user the chance to sign in.](../../../../Downloads/WireFrames/IMG_1477 Small.png)
-
-![Once the user has signed in they can choose to manage reservations or manage inventory.](../../../../Downloads/WireFrames/IMG_1476 Small.png)
-
-![](../../../../Downloads/WireFrames/IMG_1478 Small.png)
 
 ![](../../../../Downloads/WireFrames/IMG_1479 Small.png)
